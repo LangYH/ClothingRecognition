@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLOTHINGSEARCHER_H	clothingsearcher.h	2;"	d
+ClothingSearcher	clothingsearcher.cpp	/^ClothingSearcher::ClothingSearcher()$/;"	f	class:ClothingSearcher
+ClothingSearcher	clothingsearcher.h	/^class ClothingSearcher$/;"	c
+DISPLAYWIDGET_H	displaywidget.h	2;"	d
+DisplayWidget	displaywidget.cpp	/^DisplayWidget::DisplayWidget(QWidget *parent) :$/;"	f	class:DisplayWidget
+DisplayWidget	displaywidget.h	/^class DisplayWidget : public QWidget$/;"	c
+FACEDETECTOR_H	facedetector.h	2;"	d
+FaceDetector	facedetector.cpp	/^FaceDetector::FaceDetector()$/;"	f	class:FaceDetector
+FaceDetector	facedetector.h	/^class FaceDetector$/;"	c
+MAINWINDOW_H	mainwindow.h	2;"	d
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
+Max_DRAWIMAGE	displaywidget.cpp	6;"	d	file:
+Ui	mainwindow.h	/^namespace Ui {$/;"	n
+clearAll	displaywidget.cpp	/^void DisplayWidget::clearAll()$/;"	f	class:DisplayWidget
+clickInImage	displaywidget.cpp	/^bool DisplayWidget::clickInImage( QPoint clickPoint )$/;"	f	class:DisplayWidget
+closeOperation	clothingsearcher.cpp	/^static void closeOperation( Mat &edges )$/;"	f	file:
+computeEdgeMap	clothingsearcher.cpp	/^static void computeEdgeMap( const Mat &image, Mat &edges )$/;"	f	file:
+detectFaces	facedetector.cpp	/^static void detectFaces(const Mat &image, std::vector<Rect> &faces,$/;"	f	file:
+detectFrontFaces	facedetector.cpp	/^void FaceDetector::detectFrontFaces(const Mat &image, std::vector<Rect> &faces )$/;"	f	class:FaceDetector
+detectProfileFaces	facedetector.cpp	/^void FaceDetector::detectProfileFaces(const Mat &image, std::vector<Rect> &faces)$/;"	f	class:FaceDetector
+drawImageCount	displaywidget.h	/^    int drawImageCount;\/\/number of painted images$/;"	m	class:DisplayWidget
+drawPointList	displaywidget.h	/^    std::list<QPoint> drawPointList;$/;"	m	class:DisplayWidget
+drawSeedsOnImage	clothingsearcher.cpp	/^static void drawSeedsOnImage( Mat &small_image, std::vector<cv::Point> clothPts )$/;"	f	file:
+eraseTopImage	displaywidget.cpp	/^void DisplayWidget::eraseTopImage()$/;"	f	class:DisplayWidget
+getCurrentImage	displaywidget.cpp	/^Mat DisplayWidget::getCurrentImage()$/;"	f	class:DisplayWidget
+getImageList	mainwindow.cpp	/^void getImageList( const QString path, QStringList &image_list )$/;"	f
+getSecondImage	displaywidget.cpp	/^Mat DisplayWidget::getSecondImage()$/;"	f	class:DisplayWidget
+getTheMaskOfCloth	clothingsearcher.cpp	/^void ClothingSearcher::getTheMaskOfCloth(const Mat &image, Mat &mask,$/;"	f	class:ClothingSearcher
+imageSelected	displaywidget.h	/^    bool imageSelected;$/;"	m	class:DisplayWidget
+isEmpty	displaywidget.cpp	/^bool DisplayWidget::isEmpty()$/;"	f	class:DisplayWidget
+keyPressEvent	displaywidget.cpp	/^void DisplayWidget::keyPressEvent( QKeyEvent *event )$/;"	f	class:DisplayWidget
+lastPath	mainwindow.h	/^    QString lastPath;$/;"	m	class:MainWindow
+loadFaceDetector	facedetector.cpp	/^static void loadFaceDetector( CascadeClassifier &faceDetector, QString path )$/;"	f	file:
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mouseDown	displaywidget.h	/^    bool mouseDown;$/;"	m	class:DisplayWidget
+mouseMoveEvent	displaywidget.cpp	/^void DisplayWidget::mouseMoveEvent( QMouseEvent *event )$/;"	f	class:DisplayWidget
+mousePressEvent	displaywidget.cpp	/^void DisplayWidget::mousePressEvent( QMouseEvent *event )$/;"	f	class:DisplayWidget
+mouseReleaseEvent	displaywidget.cpp	/^void DisplayWidget::mouseReleaseEvent( QMouseEvent *event)$/;"	f	class:DisplayWidget
+moveMent	displaywidget.h	/^    QPoint moveMent;\/\/mouse movement,used to repaint image$/;"	m	class:DisplayWidget
+on_actionBatch_Processing_triggered	mainwindow.cpp	/^void MainWindow::on_actionBatch_Processing_triggered()$/;"	f	class:MainWindow
+on_actionClose_operation_triggered	mainwindow.cpp	/^void MainWindow::on_actionClose_operation_triggered()$/;"	f	class:MainWindow
+on_actionDetect_face_triggered	mainwindow.cpp	/^void MainWindow::on_actionDetect_face_triggered()$/;"	f	class:MainWindow
+on_actionFloodFill_triggered	mainwindow.cpp	/^void MainWindow::on_actionFloodFill_triggered()$/;"	f	class:MainWindow
+on_action_Open_triggered	mainwindow.cpp	/^void MainWindow::on_action_Open_triggered()$/;"	f	class:MainWindow
+on_action_Save_triggered	mainwindow.cpp	/^void MainWindow::on_action_Save_triggered()$/;"	f	class:MainWindow
+originalImageList	displaywidget.h	/^    std::list<Mat> originalImageList;$/;"	m	class:DisplayWidget
+paintEvent	displaywidget.cpp	/^void DisplayWidget::paintEvent( QPaintEvent *event )$/;"	f	class:DisplayWidget
+paintImageList	displaywidget.h	/^    std::list<Mat> paintImageList;$/;"	m	class:DisplayWidget
+prepareImageForFaceDection	facedetector.cpp	/^static float prepareImageForFaceDection( const Mat &image, Mat &result )$/;"	f	file:
+prepareSeedsRegionForFloodfill	clothingsearcher.cpp	/^static void prepareSeedsRegionForFloodfill( const Mat &image,$/;"	f	file:
+presentPoint	displaywidget.h	/^    QPoint presentPoint;\/\/used to caculate the mouse movement$/;"	m	class:DisplayWidget
+previousPoint	displaywidget.h	/^    QPoint previousPoint;\/\/used to caculate the mouse movement$/;"	m	class:DisplayWidget
+scaleList	displaywidget.h	/^    std::list<double> scaleList;$/;"	m	class:DisplayWidget
+setPaintImage	displaywidget.cpp	/^bool DisplayWidget::setPaintImage( Mat const &sourceImage )$/;"	f	class:DisplayWidget
+ui	mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	class:MainWindow
+wheelEvent	displaywidget.cpp	/^void DisplayWidget::wheelEvent(QWheelEvent *event)$/;"	f	class:DisplayWidget
+~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
